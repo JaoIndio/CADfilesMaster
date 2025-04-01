@@ -298,4 +298,89 @@ Livro:
     sinal é processado, digitalizado e armazenado.
     O sinal medido é a media da intensidade óptica integrado em um intervalo de tempo, con
     dicionado pela largura de banda a qual o detector é capaz de responder
+    Segundo essa referencia a intensidade do detector pode ser vista como a média da
+    raíz quadrada do valor absoluto da potencia optica
+
+  Interferencia e Sobreposição
+    OPD define a intensidade da recombinação
+      Mostrou a dedução de uma equação fasorial, onde duas ondas monocromáticas com mesma
+      frequencia interagem
+        OPD = 2x onde x é a distancia percorrida
+
+        Em OPD = n.lambda há a máxima intensidade
+        em OPD = nlambda/2 há a miníma
+
+      [NAO ENTENDI PQ NA FASE RELATIVA APARECE UM 2.pi PRA MIM DO NADA 
+       SIGNAM = 2.pi.OPD/lamda]
+
+       [ACHEI: k = 2.pi/lambda ro= k.z - k.v.t]
+       [ro1-ro2 = 2.pi/lamda.(z1-z2) = 2.pi/lambda.OPD]
+
+       No caso ideal onde 50% da luz é refletida e os outros 50% são transmitidos
+       pela formula 3.12 a intensidade relativa à posição será
+
+        I(x) = 0.5Is[1+ cos(4.pi.x/lambda)]
+
+  Fontes Policromaticas
+    Discretizando as fontes em representações de radiações monocromáticas tem-se que 
+
+      f(y) = C0 +C1.cos(2.pi/lambda1.y) + C2.cos(2.pi.y/lambda2) + ...
+
+      Onde C é a distribuição espectral da intensidade de cada fonte nomocromática
+      O interferograma de uma fonte policromática cracteriza-se por um grande sinal em
+      OPD=0, o qual rápidademente decai. O gráfico recebe o nome de centerburst.
+
+  Resolução teórica
+    Mede a capacidade de qualitivamente distinguir dois picos espectrais, os quais estão
+    próximo.
+    Fundamentalmente a potencia de resolução é limitada por duas condições principais
+    o OPD máximo e angulo de divergência do feixe. Sendo esse sendo portanto, o deslocamento
+    do espelho e o tamanho da abertura cuja entrada é um feixe colimado, na prática há 
+    várias outras fontes de erros as quais compromentem a resolução, tais como incoêrcia da 
+    fonte e inclinação dos espelhos
+
+  Distancia de Retardação
+    Explica como que OPD precisa ser no mínimo (1/delta(lambdas⁻¹)) tem a ver com o intervalo
+    de integração da FT. Idealmente em OPD maximo = +- infinito teria-se um degrau, porém
+    como OPD é finitio, tem-se uma função sinc como resultado.
+
+    Segundo o livro: No fim das contas, a largura da função sinc é inversamente proporcional
+    à largura entre a funçao top-hat e a linha de cruzamento por zero. Isso significa que OPD
+    e aproximadamente relacionado com a resolução espectral por meio de
+      OPD = 1/delta(lambdas)
+
+  Angulo de Divergência
+    Os feixes que entram no sistema possui angulo de divergência finito, o que impacta na 
+    resolução. Quando há angulo de divergência a onda senoidal resultante possui uma 
+    banda extreita de frequencias causadas pela tragetória de cada feixe. Quando os 
+    caminhos dos feixes estão defasados, mesmo que em tese OPD=0, duas senoides distin
+    tas existem em zcada espelho.
+
+    Neste caso para uma mesma posição entre os espelhos duas distancias são percorridas.
+    x e x'. 
+        x' = x/cos(a) onde a é o angulo de divergência da fonte de luz
+
+    Neste caso
+        
+        OPD = 2|x'-x| = |2.x(1/cos(a) - 1)|
+
+    Para angulos pŕoximos de 0 a equação pode ser aproximada por
+      cos(a) +-=1-a²/2
+      OPD +-= x.a²
+
+    Nesta situação quando OPD deste sistema for lambda/2 os raios estarão defasados e 
+    ao invés de uma observar um vale será visto sinal. Portanto o lambda tbm determina o
+    valor máximo do OPD, quanto menor o lambda, mais extreito será o OPD, para um sinal 
+    com fontes policromáticas usa-se o lambda de monor valor
+      
+      OPD <= lambdaMIN/2 = 1/2.lambda⁻¹
+
+      a²=< 1/2.x.lambda⁻¹
+
+    sendo delta(lambda⁻¹) = 1/2x
+
+      a² <= delta(lambda⁻¹).lambda_min⁻¹ = 1/R R sendo a potencia de resolução
+
+      A+-=a/f
+
 
