@@ -1,0 +1,301 @@
+Revisao Biliografica
+
+Debunc:
+
+Cap2:
+  Relevancia e Aplicações
+  Absrocao Molecular
+    Como sinais eletromagneticos interagem com a materia. Ocorre por causa da existencia 
+    de Ligacoes Covalentes. Dependendo do arranjo das ligacoes e seus acoplamento, 
+    oscilacoes lineares especificas ocorreram.
+    Falou sobre a equacao que descreve a energia associada com vibrações eletromagneticas
+    Transacoes nos niveis da energia vibracional podem ser trazidas pela absorção da 
+    radiação, a qual provem da energia da radiação que combina perfeitamente com a 
+    diferença dos niveis de energia entra o estato quantico vibracional da molecula e ... gera uma mudança no movmento do dipolo.
+    Destacou o fato de que cada ligação quimica acaba se associando com absorcao de 
+    energia em frequencias bem definidas. Tipo de ligacao no infravermelho. 
+    MIR são mais fortes e NIR apresentam sobretons (harmonicas). Falou de sobretons e 
+    bandas de combinação
+  
+  Assinatura Biologica
+    Cada composto quimico possui perfil espectrometrico próprio. Essa propriedade é o q
+    permite a identificação de compostos em planetas distantes
+
+  Absorcao Molecular
+    A absorcoção da energia eletromagnetica de entrada esta associada com a transição mo
+    lecular. Essas transições podem ser de ionização, vibracional ou rotacional.
+                      Eel > Evib > Erot
+    As transições eletronicas acontecem fortemente no UV.
+
+  Tecnologias para detecção de infravermelho
+    Termicos e eletronicos.
+    Materias e regiões de responsividade (CCD, TaS, PbSe, PbTe, MCT, QWIP).
+    AlGaAs/GaAs
+
+Cap3:
+  Principios Basicos da Espectrometria 
+    Breve sintese do que é um espectrometro. Disp. que recebe como entrada ondas 
+    eletromagnéticas em um determinado intervalo. É dever dele separar e medir os
+    comprimentos de onda observados. Os componentes basicos são
+      * Abertura de entrada
+      * Colimação. Feixes divergentes tornam-se paralelos.
+      * Difração. Elemento de dispersão.
+      * Detector ou camera
+  
+  Parametros da Grade de Difração
+    d = espaçamento de ranhuras
+    L = tamanho da grade
+    alpha = angulo de inscidência
+    beta = angulo de difração
+    m = ordem da difração
+
+    Mostrou diagrama esquemático de uma grade, perfil lateral, simplificando o entendimento 
+    do comportamento de uma grade de difrção.
+    
+    Equação geral da difração : m.Lambda = d.(sin alpha +- sin beta) [1]
+
+    Explica em que situção usa-se o sinal positivo ou negativo.
+  
+  Intervalo espectral livre [FSR]
+    Conceito que define o intervalo espcial onde não há sobreposição de luz entre
+    ondas de difrações com ordens diferentes
+    Equação 
+    Imagem
+
+  Disperção da Grade
+    Taxa de variação do angulo de difração em relação à mudança do comprimento de
+    onda
+
+    Equação geral.
+    Equação especifica por meio da derivação da equação geral [1]
+    Equação da disperção linear
+
+  Considerações Geometricas
+    Como a variabilidade de diferentes componentes impacta na capacidade operacio-
+    nal do dispositivo.
+      Comprimento focal dos espelhos
+      Diametro dos espelhos
+      Densidade de ranhuras na grade de difração
+      O tamanho das aberturas de entrada e saída
+      Angulos internos
+
+  Configurações (Topologias, design, layout) de Espectrometros Reflectivos
+    Pontos fortes e fracos de cada layout
+    Fez várias colocaçãoes incluido o fato de que espectrometros reflectivos
+    exigem um layout com configuração [fora do eixo] (confuso). Este fato
+    gera aberrações como coma e astigmatismo
+
+    Configuração Littrow
+      Contextualização histórica
+      Conjunto de componentes e propósito de cada um
+      Equacionamento
+      Na forma de tópicos falou das vantagens e desvantagens
+
+    Configuração Evert-Fastie
+      Contextualização histórica
+      Conjunto de componentes e propósito de cada um
+      Equacionamento
+      Na forma de tópicos falou das vantagens e desvantagens
+
+    Configuração Czerny-Turner
+      Contextualização histórica
+      Conjunto de componentes e propósito de cada um
+      Equacionamento
+      Na forma de tópicos falou das vantagens e desvantagens
+      Variantes.
+
+Hasset:
+
+Cap2 Referencial Teórico
+  Principios Fundamentais
+    Propósito de um espectrometro
+
+      Entrada de Luz    --->  Manipulação Óptica  ---->   Detecção
+    
+    Destacou em qual layout clássico esta se baseando. Listou suas 
+    vantagens. Descreveu o comportamento interno dos caminhos ópticos
+      
+      Diagrama esquemático da configuração Ebert-Fastie
+
+  Grade de Difraçao
+    Definição e explicação de sua composição. Revestimentos, ranhuras
+    Principio de funcionamento
+    Ilustração da operação
+
+    Dedução da equação.
+
+  Pico de difração [blaze]
+
+Cap3: Design Óptico
+  Considerações Basicas
+    O grande objetivo -> Elevada SNR e Resolução espectral potente.
+    Falou da relevancia de se ter luzes monocromáticas. A qual se 
+    obtem por meio de aberturas pequenas
+    
+    Por outro lado a SNR depende da quantidade de luz que entra no
+    sistema. Luz com elevado angulo sólido [entendue?] precisa 
+    entrar
+
+    O design de um espectrometro passa então a ser limitado entre o
+    compromisso de elevar a potencia do sinal ao mesmo tempo que 
+    limita a entrada dese.
+
+    Além desse compromisso há as não idealidades relacionadas com
+    aberrações e efeitos de difração.
+
+    [EU PRECISO DESTACAR CLARAMENTE QUIAS PARAMETROS ÓPTICOS EU
+    QUERO EXPLORAR, REDUZIR OU ELEVAR DE ACORDO COM O OBJETICO
+    DA APLICAÇÃO]
+
+
+Heater:
+
+Cap2> Grades de Difração Linear
+  
+  Breve explicação e comparativo entre grades de difração e 
+  opticos bulk. Semelhanças e diferenças
+
+  Equação
+
+  Otimização do uso por meio da manipulçaão da equação
+  
+  Criterio de Raylei, angulo do meio comprimento do maximo central, Dispersão, resolução
+  (coerência temporal), FSR (Intervalo espectral livre)
+
+  
+MIT:
+
+Cap2: Design e Implementação de Espectrometros
+  
+  Comparativo
+    Breve apresentação do espectrometros dispersivos
+
+    Diagrama esquemático de um espectrometro com grade
+
+    Contraposição com interferometro
+
+    Diagrama de um interferometro
+
+  Visão Geral de um interferometro
+    Descrição comportamental do equipamento.
+    Luz -> Colimação -> Abertura -> Divisor de Feixe -> Espelhos -> FFT
+    Falou da recombinação de feixes devido a diferença no caminho óptico
+
+    Em spec. Dispersivos o detector precisa medir um elemento espectral por amostragem
+    Interferometros não. Ponto positivos para ampliar a intensidade luminosa e a abertura
+    [Provavelmente é ai que repousa as vantagens de Jaqnoiut e uma outra la].
+
+    Quando usa-se o laser HeNe tem-se uma estabilidade na frequencia amostral elevada
+
+
+  Fonte de Luz
+    Determinação do intervalo dos comprimentos de onda.
+    Qual material usar. Vagamente explicou a resolução esperada 30cm⁻¹.
+
+
+  Detector
+    NEP (Potencia Equivalente do Ruído). NEP -> Potencia Minima para que o ruido e o sinal
+    sejam de igual valor (SNR =1), dentro de uma largura de banda. Falou da unidade de medida
+    da NEP. NEP tem que levar em consideração as especificações do detector e a instrumenta-
+    ção eletronica. NEP é influenciada pela area de detecção e temperatura de operação.
+
+    Responsividade. Magnitude de corrente produzida em função de uma potencia espectral de en
+    trada.
+
+    A area do detector limita o rendimento óptico (entendue)
+      Equação -> omega = Area.Ohm Ohm -> Angulo sólido
+      O angulo sólido é determinado pelos opticos de foco e colimação
+
+      Equação do Angulo sólido
+
+
+  Colimação
+    Usa-se aberturas para limitar o angulo de divergência, porém quanto menor a abertura
+    maior a consistência do comprimento de onda, mas menor será o rendimento (SNR menor)
+    
+    Equação da Potencia de Resolução 
+       R = lambda/delta lamda
+    
+    Equação do Angulo de Divergência
+      theta = tan⁻(a/f)<= (2/R)⁰⁵ 
+
+    O rendimento da colimação precisa ser maior que o do detector
+
+    Mostrou como que usa-se essas equações para determinar a area da abertura
+
+
+  Deslocamento
+    O deslocamento afeta diretamente a resolução do sistema
+      delta quantidade de ondas = 1/delta posição.
+
+    Extração de uma senoide via Laser HeNe
+    Equação
+
+    Falou que a velocidade de deslocamento determina a variação da frequencia do sianl 
+    principal (luz policromática)
+
+  Amostragem e Aquisição de Dados
+    Há duas formas de se coletar dados. Amostragem em tempos regulares. Ou amostrar 
+    de acorodo com o sinal senoidal gerado pelo deslocamento do espelho
+  
+Livro:
+  Espectrometros de FT
+    Breve explicação do funcionamento
+      Criação da interferência por meio do deslocamento do espelho
+
+      Diagrama do sistema
+      
+      Vantagens do interferometro frente aos espectrometros dispersivos
+        Jacquinot e Felgett [Rendimento(taxa de transmissão e multiplexação)]
+        
+        Rendimento
+          Equação
+          O rendimento é limitado ou pela colimação ou pela area do detector
+          Equcionamento completo do Entendue, Potencia de Resolução
+          Comparativo entre o entendue do FT e da disperção
+
+          Esp. dispersivos exigem fendas pequenas, limitando a taxa de trans
+          ferencia, Esp. de FT permitem aberturas maiores. Essa é a chamada
+          Vantagem de Jacquinot
+
+        Multiplexação
+          Esp. dispersivos precisam, em um tempo T realizar todas as amostras
+          dos comprimentos de onda (largura de banda N), portanto para cada 
+          lambda, tem-se um tempo T/N para medir tal onda. Esp. de FT medem to
+          do o N no tempo T. Isso eleva a SNR
+
+          Fez uma dedução lógica/matemática de quanto exatamente a SNR se benicicia
+          disso e tbm fez a explicaçao da relação entre: Quanto maior o N, no Esp.
+          de FT, maior será a SNR. Isso pq quanto maior o deslocamento do espelho, 
+          maior será a quantidade de N coletadas, melhorando o sistema
+
+        De modo a atingri e se benicificar desses ganhos de performance, o equipamen
+        to precisa estar com o erros de deslocamento e desalinhamento bem controlados
+        e minimizados
+
+  Principio de Operação
+    Michelson 
+
+    Diagrama. Feixe -: Divisão do feixe pelo BS -> Recombinação -> Detecção
+
+    Considerando o caso da luz monocromática, onde L1 e L2 tem distancias iguais do 
+    BS, portanto interferencia construtiva. Descricção do que ocorre quando L2 move
+    se além do ponto onde OPD=0.
+
+    Neste caso a recombinação resulta em atenuação da onda resultante. OPD sempre será 
+    2.Deslocamento do espelho (x pra ir + x da reflexão). Em OPD=lambda/2 ocorre a des
+    truição completa do sinal. Se o deslocamnto do espelho for constante, o detector irá
+    identificar uma onda senoidal. Essa senoide será função portanto do deslocamnto e terá
+    período lambda/2. Chama-se interferograma a intenside identificada a partir do desloca
+    mento.
+
+    Quando a interferometria ocorre por meio de uma fonte de luz policromática, ha um pico
+    de detecção em OPD=0 e rápidamente há um decaimento da intensidade do sinal
+
+    [A falta de coerência temporal e espacial compromete a geração de interferometria]
+
+    A potencia da radiação recombinada é convertida em sinal elétrico, posteriormente este 
+    sinal é processado, digitalizado e armazenado.
+    O sinal medido é a media da intensidade óptica integrado em um intervalo de tempo, con
+    dicionado pela largura de banda a qual o detector é capaz de responder
+
